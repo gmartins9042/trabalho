@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transforme-se: Ensine e Aprenda com Liberdade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Transforme-se</h1>
+        <nav>
+            <a href="#sobre">Sobre Nós</a>
+            <a href="#alunos">Para Alunos</a>
+            <a href="#tutores">Para Tutores</a>
+            <a href="#cursos">Cursos Recomendados</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <h2>Bem-vindo ao Transforme-se</h2>
+            <p>Ensine e Aprenda com Liberdade</p>
+            <input type="text" id="cursoBuscar" placeholder="Buscar cursos...">
+            <button id="btnBuscar">Buscar</button>
+            <div id="resultadoBusca"></div>
+        </section>
+        
+
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>Missão: Proporcionar acesso à educação gratuita e de qualidade.</p>
+        </section>
+
+        <section id="alunos">
+            <h2>Para Alunos</h2>
+            <form id="cadastroAluno">
+                <h3>Cadastro de Aluno</h3>
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </section>
+
+        <section id="tutores">
+            <h2>Para Tutores</h2>
+            <form id="cadastroTutor">
+                <h3>Cadastro de Tutor</h3>
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </section>
+
+        <section id="cursos">
+            <h2>Cursos Recomendados</h2>
+            <ul>
+                <li><a href="https://www.coursera.org/">Coursera</a></li>
+                <li><a href="https://www.edx.org/">edX</a></li>
+                <li><a href="https://www.khanacademy.org/">Khan Academy</a></li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Transforme-se. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
